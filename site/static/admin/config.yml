@@ -15,9 +15,6 @@ collections:
   - name: "post"
     label: "Post"
     folder: "content/post"
-    filter:
-      field: language
-      value: ja
     create: true
     slug: "{{slug}}"
     fields:
