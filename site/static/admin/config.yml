@@ -21,5 +21,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Descreption", name: "description", widget: "text"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
