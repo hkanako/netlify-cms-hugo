@@ -1,0 +1,51 @@
+._badger-outter
+	{
+	background:#fff;
+	border:1px solid #ccc;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	float:left;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:9999;
+	}
+.badger-outter{
+	position: absolute;
+	top: 15%;
+	right: 15%;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #fff;
+}
+.badger-inner
+	{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background: #d64e63;
+	background: -moz-linear-gradient(100% 100% 100deg, #d64e63, #d64e63);
+	background: -webkit-gradient(linear, 100% 100%, 100% 100%, from(#d64e63), to(#d64e63));
+	background: -webkit-linear-gradient(#d64e63, #d64e63);
+	background: -o-linear-gradient(#d64e63, #d64e63);
+	margin:0px;
+	z-index:99999;
+	}
+.badger-badge
+	{
+	color:#fff;
+	padding:0px 0px;
+	margin:0;
+	text-align:center;
+	z-index:999999;
+	}
+.badger-text
+	{ font-size:10px; line-height: 15px;}
+.badger-number
+	{ font-size:12px; line-height: 15px; }
