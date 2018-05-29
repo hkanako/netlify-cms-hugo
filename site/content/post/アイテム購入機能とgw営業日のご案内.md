@@ -14,23 +14,22 @@ date: '2018-04-27T12:03:00+09:00'
 ・購入された分のアイテムは「いまもっている」から「購入済み」に追加されます。\
 ・返品、交換はできかねます。
 
+![closet1](/images/uploads/purchase_closet_1.png)
 
-![closet](https://sustina.co/images/purchase_closet_1.png "closet")  
-
-![closet2](https://sustina.co/images/purchase_closet_2.png "closet2")  
+![closet2](/images/uploads/purchase_closet_2.png)
 
 ＜GW営業日のご案内＞  
 
 ・SUSTINA商品管理センターは（日・祝日）は休業日となります。  
 
-4月28日（土）通常営業  
-4月29日（日）休業日  
-4月30日（月）休業日  
-5月1日（火）通常営業  
-5月2日（水）通常営業  
-5月3日（木）休業日  
-5月4日（金）休業日  
-5月5日（土）休業日  
+4月28日（土）通常営業\
+4月29日（日）休業日\
+4月30日（月）休業日\
+5月1日（火）通常営業\
+5月2日（水）通常営業\
+5月3日（木）休業日\
+5月4日（金）休業日\
+5月5日（土）休業日\
 5月6日（日）休業日  
 
 お急ぎの場合はお早めにご注文をお願いいたします。  
