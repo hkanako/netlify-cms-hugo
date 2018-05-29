@@ -1,18 +1,7 @@
-<div class="wrapper animsition">
-    <!-- <div id="sus-content" class="header">
-        <img src="/img/icon_menu.png" alt="">
-         <h1 class="home_logo">
-            <img src="/img/logo_txt_0306.png">
-        </h1>
-        <button type="button" class="new-btn-aft trigger-show-progress">ログイン</button>
-    </div>
-
-    <div style="margin-top:50px"></div> -->
-
-      <div id="sus-content">
-        <div class="sus-card sus-margin-top-xl sus-margin-xs">
+<div id="sus-content">
+    <div class="sus-card sus-margin-top-xl sus-margin-xs">
         {{ range (where .Data.Pages "Type" "post").Reverse }}
-          <div class="">
+        <div class="">
             <a href="http://sustina.local/news/20180427">
                 <div class="sus-text-black sus-text-sm sus-padding-sm clearfix ">
                     <div class="sus-float-left">
@@ -26,6 +15,5 @@
             </a>
         </div>
         {{ end }}
-      </div>
-     </div>
+    </div>
 </div>
