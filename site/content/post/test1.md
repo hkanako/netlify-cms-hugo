@@ -12,3 +12,5 @@ aaaaa
 ![test2](/images/uploads/help2.png)
 
 bbbbb
+
+![test3](/images/uploads/help.png)
