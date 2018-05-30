@@ -2,7 +2,7 @@
     <div class="sus-card sus-margin-top-xl sus-margin-xs">
         {{ range (where .Data.Pages "Type" "post").Reverse }}
         <div class="">
-            <a href="http://sustina.local/news/20180427">
+            <a href="{{ .Permalink }}">
                 <div class="sus-text-black sus-text-sm sus-padding-sm clearfix ">
                     <div class="sus-float-left">
                       {{ .Date.Format "2006.01.02" }}<br/>
