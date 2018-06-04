@@ -1,15 +1,62 @@
 {{ define "main" }}
+<div id="news">
+    <div id="sus-content">
+        <div class="sus-card">
+          <div class="sus-text-md sus-border-bottom sus-padding">
+          {{.Title}}
+          </div>
+          <div class="sus-text-sm sus-padding">
+            <div>
+              {{ .Date.Format "2006.01.02" }}
+              <br/>
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+<div id="sus-content">
+    <div class="sus-card sus-margin-top-xs sus-text-sm">
+        <div class="sus-padding">
+            過去の記事
+            <a class="sus-link-text" href="/news">
+                <span class="sus-float-right">すべて見る</span>
+            </a>
+        </div>
+        <div class="sus-border-top sus-padding clearfix">
+            <div class="sus-float-left">
+                <a class="sus-text-black" href="/news/20180427">
+                2018.04.27
+                <br> アイテム購入機能とGW営業日のご案内
+                </a>
+            </div>
+            <div class="sus-float-right">
+                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
+            </div>
+        </div>
+        <div class="sus-border-top sus-padding clearfix">
+            <div class="sus-float-left">
+                <a class="sus-text-black" href="http://sustina.local/news/20180419">
+                2018.04.19
+                <br> 「お気に入りアイテム」通知のお知らせ
+                </a>
+            </div>
+            <div class="sus-float-right">
+                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
+            </div>
+        </div>
+        <div class="sus-border-top sus-padding clearfix">
+            <div class="sus-float-left">
+                <a class="sus-text-black" href="http://sustina.local/news/20180209">
+                2018.02.09
+                <br> 北陸地方における配達遅延のお知らせ
+            </a>
+            </div>
+            <div class="sus-float-right">
+                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
+            </div>
+        </div>
     </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
-  </div>
+</div>
 {{ end }}
