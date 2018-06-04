@@ -3,7 +3,7 @@
         {{ range (where .Data.Pages "Type" "post").Reverse }}
         <div class="">
             <a href="{{ .Permalink }}">
-                <div class="sus-text-black sus-text-sm sus-padding-sm clearfix ">
+                <div class="sus-text-black sus-text-sm sus-padding-sm clearfix sus-border-top">
                     <div class="sus-float-left">
                       {{ .Date.Format "2006.01.02" }}<br/>
                       {{ .Title }}
