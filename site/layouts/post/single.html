@@ -24,39 +24,19 @@
                 <span class="sus-float-right">すべて見る</span>
             </a>
         </div>
-        <div class="sus-border-top sus-padding clearfix">
-            <div class="sus-float-left">
-                <a class="sus-text-black" href="/news/20180427">
-                2018.04.27
-                <br> アイテム購入機能とGW営業日のご案内
-                </a>
+        {{ range (where .Data.Pages "Type" "post" 1).Reverse }}
+            <div class="sus-border-top sus-padding clearfix">
+                <div class="sus-float-left">
+                    <a class="sus-text-black" href="/news/20180427">
+                    {{ .Date.Format "2006.01.02" }}
+                    <br> {{ .Title }}
+                    </a>
+                </div>
+                <div class="sus-float-right">
+                    <img class="sus-image-inline-block sus-padding-top-sm" src="/img/icon_next.png" alt="icon_next.png" height="25px">
+                </div>
             </div>
-            <div class="sus-float-right">
-                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
-            </div>
-        </div>
-        <div class="sus-border-top sus-padding clearfix">
-            <div class="sus-float-left">
-                <a class="sus-text-black" href="http://sustina.local/news/20180419">
-                2018.04.19
-                <br> 「お気に入りアイテム」通知のお知らせ
-                </a>
-            </div>
-            <div class="sus-float-right">
-                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
-            </div>
-        </div>
-        <div class="sus-border-top sus-padding clearfix">
-            <div class="sus-float-left">
-                <a class="sus-text-black" href="http://sustina.local/news/20180209">
-                2018.02.09
-                <br> 北陸地方における配達遅延のお知らせ
-            </a>
-            </div>
-            <div class="sus-float-right">
-                <img class="sus-image-inline-block sus-padding-top-sm" src="http://sustina.local/images/icon_next.png" alt="icon_next.png" height="25px">
-            </div>
-        </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}
